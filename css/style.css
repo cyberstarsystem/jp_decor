@@ -184,6 +184,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    margin: 10px 0;
 }
 
 .btn-luxury.btn-primary {
@@ -859,6 +860,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
     .hero-section {
         min-height: 500px;
+    }
+    .navbar-nav .nav-link::after{
+        display: none;
     }
     
     .about-section,
